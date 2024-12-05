@@ -13,6 +13,10 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Rafael Sutiono." ];
   const period = 2000;
+  const handleClick = () => {
+    window.location.href = "mailto:rafaelsutiono@gmail.com";
+  };
+  
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -58,7 +62,7 @@ export const Banner = () => {
 
                 <h1>{`Hi, I'm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Rafael Sutiono." ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm an undergraduate student in Computer Science at BINUS International. I'm passionate in ML/DL, Fullstack Development, and Cybersecurity. I'm always eager to learn and take opportunities in new things, and I created this website to showcase the projects that I've done throughout my time of study.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={handleClick}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
