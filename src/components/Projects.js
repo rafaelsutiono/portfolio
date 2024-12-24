@@ -16,7 +16,7 @@ export const Projects = () => {
   const projects = [ 
     {
       title: "ARA - Artwork Realness Analyzer",
-      description: "A web application equipped with a CNN (Convolutional Neural Network) model to detect whether an artwork is real or fake. It can detect artworks generated from 5 different diffusion models. 3-person team.",
+      description: "A web application equipped with a CNN (Convolutional Neural Network) model to detect whether an artwork is real or fake. It can detect artworks generated from 4 different diffusion models. 3-person team.",
       imgUrl: [jupyter, react, fastapi],
       link: "https://github.com/priscillabigaill/ARA_artwork_realness_analyzer",
       completed: true,
