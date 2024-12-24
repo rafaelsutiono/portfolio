@@ -13,7 +13,21 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
+  const projects = [ 
+    {
+      title: "ARA - Artwork Realness Analyzer",
+      description: "A web application equipped with a CNN (Convolutional Neural Network) model to detect whether an artwork is real or fake. It can detect artworks generated from 5 different diffusion models. 3-person team.",
+      imgUrl: [jupyter, react, fastapi],
+      link: "https://github.com/priscillabigaill/ARA_artwork_realness_analyzer",
+      completed: true,
+    },
+    {
+      title: "Morse Code Trainer - Arduino",
+      description: "An interactive Morse Code Trainer using an Arduino Uno. Features include difficulty selection, speed typing, WPM counter, and morse code decoding. 2-person team.",
+      imgUrl: [arduino],
+      link: "https://github.com/rafaelsutiono/morse-code-trainer",
+      completed: true,
+    },
     {
       title: "Moringa - Web Application",
       description: "A fullstack web application to streamline the supply chain system of moringa leaf production. A 9-person team effort, I contributed to the ‘XYZ Employee’ dashboard, which can be viewed upon logging in with the XYZ Employee credentials on the GitHub README. (Some backend functions no longer run).",
@@ -22,22 +36,11 @@ export const Projects = () => {
       completed: true,
     },
     {
-      title: "ARA - Artwork Realness Analyzer",
-      description: "A web application equipped with a CNN (Convolutional Neural Network) model to detect whether an artwork is real or fake. It can detect artworks generated from 5 different diffusion models. 3-person team.",
-      imgUrl: [jupyter, react],
-      link: "https://github.com/rafaelsutiono/ARA",
-    },
-    {
-      title: "Morse Code Trainer - Arduino",
-      description: "An interactive Morse Code Trainer using an Arduino Uno. Features include difficulty selection, speed typing, WPM counter, and morse code decoding. 2-person team.",
-      imgUrl: [arduino],
-      link: "https://github.com/rafaelsutiono/morse-code-trainer",
-    },
-    {
       title: "Braille Translator",
       description: "A Python program to translate ENGLISH to and from GRADE 2 BRAILLE. Runs on a clean tkinter GUI. 4-person team.",
       imgUrl: [python],
       link: "https://github.com/rafaelsutiono/braille-translator",
+      completed: true,
     },
     {
       title: "Sudoku Solver",
