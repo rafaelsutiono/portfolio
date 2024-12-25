@@ -3,11 +3,11 @@ import { ProjectCard } from "./ProjectCard";
 import c from "../assets/img/c.svg";
 import arduino from "../assets/img/arduino.svg";
 import python from "../assets/img/python.svg";
-import jupyter from "../assets/img/jupyter.svg";
 import java from "../assets/img/java.svg";
 import react from "../assets/img/react.svg";
 import fastapi from "../assets/img/fastapi.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import tensorflow from "../assets/img/tensorflow.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -17,7 +17,7 @@ export const Projects = () => {
     {
       title: "ARA - Artwork Realness Analyzer",
       description: "A web application equipped with a CNN (Convolutional Neural Network) model to detect whether an artwork is real or fake. It can detect artworks generated from 4 different diffusion models. 3-person team.",
-      imgUrl: [jupyter, react, fastapi],
+      imgUrl: [tensorflow, react, fastapi],
       link: "https://github.com/priscillabigaill/ARA_artwork_realness_analyzer",
       completed: true,
     },
